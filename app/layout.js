@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Zen_Dots } from "next/font/google";
+const inter = Zen_Dots({weight:'400', subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
