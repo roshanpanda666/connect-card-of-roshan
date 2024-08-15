@@ -138,7 +138,7 @@ feel free to ask any query related my fields
                 I thrive on creativity and logic, blending my passion for coding, design, and writing with a critical mind. Innovation fuels my journey through web, app, and AI development
                 </div>
                <div className='flex justify-center items-center'>
-               <div className='border-[3px] bg-slate-900 border-amber-100 h-[30px] w-[100px] text-center flex justify-center items-center cursor-pointer'> portfolio</div>
+               <div className='border-[3px] bg-slate-900 border-amber-100 h-[30px] w-[100px] text-center flex justify-center items-center cursor-pointer text-amber-100'> portfolio</div>
 
                </div>
                 
