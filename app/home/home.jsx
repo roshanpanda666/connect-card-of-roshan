@@ -111,7 +111,7 @@ const Home = () => {
                     </div>
 
                     <div className='bg-orange-500 h-10 w-[95vw] -mb-4  hidden lg:block '></div>
-                    <div className='flex justify-center items-center text-center text-[0.8rem]'>designed and developed by Sabyasachi</div>
+                    <div className='hidden lg:block text-[0.8rem]'>designed and developed by Sabyasachi</div>
                 </div>
                 <div>
                             
