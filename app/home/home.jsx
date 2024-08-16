@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const Home = () => {
   return (
-    <div className='flex justify-center item-center'>
+    <div className='flex justify-center item-center h-[100vh]'>
         
        
 
@@ -79,19 +79,28 @@ const Home = () => {
                     </div>
                 </div>
 
-                    <div className='text-[7rem] lg:block hidden -mt-[30rem] relative'>
+                    <div className='text-[7rem] lg:block hidden -mt-[30rem] relative text-center    '>
                     <Name></Name>
                     </div>
-                <div className='flex relative justify-center item-center '>
-                    <div className='text-gray-900 text-4xl hidden lg:block'>
-                        <Typingeffect></Typingeffect>
+
+
+                    <div className='flex flex-col justify-center items-center'>
+                        <div className='flex relative justify-center item-center'>
+                        <div className='text-gray-900 text-4xl hidden lg:block'>
+                            <Typingeffect></Typingeffect>
+                        </div>
+                        </div>
+                        <div className='flex gap-44 mt-14'>
+                            <div className='text-amber-100 lg:block hidden'>be the change</div>
+                            <div className='text-gray-900 lg:block hidden'>you wish to see</div>
+                        </div>
                     </div>
-                </div>
+                
 
                
 
-                <div className='flex justify-center items-center '>
-                    <div className='relative -mb-16 hidden lg:block'>
+                <div className='flex justify-center items-center flex-col text-center relative'>
+                    <div className='relative bottom-0 hidden lg:block'>
                     <Image
                         src="/me.png"
                         width={400}
@@ -100,7 +109,9 @@ const Home = () => {
                         />
                         
                     </div>
-                    
+
+                    <div className='bg-orange-500 h-10 w-[95vw] -mb-4  hidden lg:block '></div>
+                    <div className='flex justify-center items-center text-center text-[0.8rem]'>designed and developed by Sabyasachi</div>
                 </div>
                 <div>
                             
@@ -114,13 +125,13 @@ const Home = () => {
                 {/* left side background */}
 
                 
-            <div className='bg-gray-900 h-[100vh] w-[50vw] flex flex-col gap-[30rem]'>
+            <div className='bg-gray-900 h-[100vh] w-[50vw] flex flex-col '>
                 <div className='relative text-amber-100 ml-8'>
                 connect-card
                 </div>
 
                 <div className='lg:block hidden'>
-                <div className='flex flex-col ml-8'>
+                <div className='flex flex-col ml-8 mt-[30.3rem]'>
                     <div className='text-amber-100 lg:block hidden'>
                         what i do
                     </div>
