@@ -3,7 +3,11 @@ import React from 'react'
 import Name from '../name/name'
 import Typingeffect from '../typingeffect/typingeffect'
 import Image from 'next/image'
-
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { SiGmail } from "react-icons/si";
 const Home = () => {
   return (
     <div className='flex justify-center item-center h-[100vh]'>
@@ -54,11 +58,13 @@ const Home = () => {
                                         connect with me in other social media platform
                                         feel free to ask any query related my fields 
                                         </div>
-                                        <div className='flex justify-center item-center gap-6'>
-                                        <div className=' h-[30px] w-[30px] bg-gray-900 text-center flex justify-center items-center cursor-pointer mt-2'></div>
-                                        <div className=' h-[30px] w-[30px] bg-gray-900 text-center flex justify-center items-center cursor-pointer mt-2'></div>
-                                        <div className=' h-[30px] w-[30px] bg-gray-900 text-center flex justify-center items-center cursor-pointer mt-2'></div>
-                                        <div className=' h-[30px] w-[30px] bg-gray-900 text-center flex justify-center items-center cursor-pointer mt-2'></div>
+                                        <div className='flex justify-center item-center gap-3 ml-3'>
+                                        <a href="https://github.com/roshanpanda666"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-white'><FaGithub /></div></a>
+                                       <a href="https://www.linkedin.com/in/sabyasachi-panda-351870256/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-blue-500'><FaLinkedin /></div></a>
+                                       <a href="https://www.instagram.com/sabyasachi_panda_/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 hover:text-red-400 text-2xl'><FaInstagram /></div></a> 
+                                       <a href="https://x.com/Roshan_panda007"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-gray-400'><FaXTwitter /></div></a> 
+                                       <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFbHmGcXcjXTmtMfzDBjrjpDcvzDQGdfxTxHLlsKNLbxgWNJtMtgQMFDLSlBCWGmhL"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
+                                       
 
                                         </div>
                                     </div>
@@ -141,7 +147,9 @@ const Home = () => {
 
                     <div className='flex gap-3 text-[0.7rem] mt-2 text-amber-100'>
                         <div className='mt-2 lg:block hidden'>checkout my portfolio</div>
-                    <div className='border-[3px] border-amber-100 h-[30px] w-[90px] text-center flex justify-center items-center cursor-pointer'> portfolio</div>
+                        
+                        <div className='border-[3px] border-amber-100 h-[30px] w-[90px] text-center flex justify-center items-center cursor-pointer z-50'> <a href="https://portfolio-of-sabyasachipanda.vercel.app/">portfolio</a> </div>
+                    
                     </div>
                 </div>
                 </div>
@@ -160,7 +168,8 @@ const Home = () => {
                 I thrive on creativity and logic, blending my passion for coding, design, and writing with a critical mind. Innovation fuels my journey through web, app, and AI development
                 </div>
                <div className='flex justify-center items-center'>
-               <div className='border-[3px] bg-slate-900 border-amber-100 h-[30px] w-[100px] text-center flex justify-center items-center cursor-pointer text-amber-100'> portfolio</div>
+                <a href="https://portfolio-of-sabyasachipanda.vercel.app/"><div className='border-[3px] bg-slate-900 border-amber-100 h-[30px] w-[100px] text-center flex justify-center items-center cursor-pointer text-amber-100'> portfolio</div></a>
+               
 
                </div>
                 
@@ -180,11 +189,13 @@ const Home = () => {
                         </div>
 
                         <div className=' hidden lg:block'>
-                            <div className='flex gap-3 text-[0.7rem] mt-2 text-gray-900'>
-                            <div className=' h-[30px] w-[30px] bg-gray-900 text-center flex justify-center items-center cursor-pointer mt-2'></div>
-                            <div className=' h-[30px] w-[30px] bg-gray-900 text-center flex justify-center items-center cursor-pointer mt-2'></div>
-                            <div className=' h-[30px] w-[30px] bg-gray-900 text-center flex justify-center items-center cursor-pointer mt-2'></div>
-                            <div className=' h-[30px] w-[30px] bg-gray-900 text-center flex justify-center items-center cursor-pointer mt-2'></div>
+                            <div className='flex gap-3 text-[0.7rem] mt-2 text-gray-900 relative'>
+                            <div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-white'><FaGithub /></div>
+                            <a href="https://github.com/roshanpanda666"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-white'><FaGithub /></div></a>
+                                       <a href="https://www.linkedin.com/in/sabyasachi-panda-351870256/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-blue-500'><FaLinkedin /></div></a>
+                                       <a href="https://www.instagram.com/sabyasachi_panda_/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 hover:text-red-400 text-2xl'><FaInstagram /></div></a> 
+                                       <a href="https://x.com/Roshan_panda007"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-gray-400'><FaXTwitter /></div></a> 
+                                       <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFbHmGcXcjXTmtMfzDBjrjpDcvzDQGdfxTxHLlsKNLbxgWNJtMtgQMFDLSlBCWGmhL"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
                         
                         </div>
                         
