@@ -64,7 +64,7 @@ const Home = () => {
                                             <a href="https://www.linkedin.com/in/sabyasachi-panda-351870256/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-blue-500'><FaLinkedin /></div></a>
                                             <a href="https://www.instagram.com/sabyasachi_panda_/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 hover:text-red-400 text-2xl'><FaInstagram /></div></a> 
                                             <a href="https://x.com/Roshan_panda007"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-gray-400'><FaXTwitter /></div></a> 
-                                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFbHmGcXcjXTmtMfzDBjrjpDcvzDQGdfxTxHLlsKNLbxgWNJtMtgQMFDLSlBCWGmhL"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
+                                            <a href="mailto:sabyasachipanda410@gmail.com"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
 
                                         </div>
 
@@ -202,7 +202,7 @@ const Home = () => {
                                        <a href="https://www.linkedin.com/in/sabyasachi-panda-351870256/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-blue-500'><FaLinkedin /></div></a>
                                        <a href="https://www.instagram.com/sabyasachi_panda_/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 hover:text-red-400 text-2xl'><FaInstagram /></div></a> 
                                        <a href="https://x.com/Roshan_panda007"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-gray-400'><FaXTwitter /></div></a> 
-                                       <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFbHmGcXcjXTmtMfzDBjrjpDcvzDQGdfxTxHLlsKNLbxgWNJtMtgQMFDLSlBCWGmhL"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
+                                       <a href="mailto:sabyasachipanda410@gmail.com"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
                                        <a href="https://medium.com/@sabyasachipanda410"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-white'><FaMedium /></div></a> 
                                        <a href="https://in.pinterest.com/sabyasachipanda410/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-600'><FaPinterest /></div></a> 
 
