@@ -67,7 +67,6 @@ const Home = () => {
                                             <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFbHmGcXcjXTmtMfzDBjrjpDcvzDQGdfxTxHLlsKNLbxgWNJtMtgQMFDLSlBCWGmhL"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
 
                                         </div>
-
                                         <div className='justify-center items-center flex gap-2'>
                                             <a href="https://medium.com/@sabyasachipanda410"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-white'><FaMedium /></div></a> 
                                             <a href="https://in.pinterest.com/sabyasachipanda410/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-600'><FaPinterest /></div></a>
@@ -193,7 +192,7 @@ const Home = () => {
                         </div>
                         <div className='w-96 text-[0.7rem] mt-2 text-gray-900'>
                             connect with me in other social media platform
-                            feel free to ask any query related my fields 
+                            feel free to ask any query related my fields   
                         </div>
 
                         <div className=' hidden lg:block'>
