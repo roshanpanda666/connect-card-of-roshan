@@ -62,9 +62,9 @@ const Home = () => {
                                             <div className='flex gap-2'>
                                             <a href="https://github.com/roshanpanda666"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-white'><FaGithub /></div></a>
                                             <a href="https://www.linkedin.com/in/sabyasachi-panda-351870256/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-blue-500'><FaLinkedin /></div></a>
-                                            <a href="https://www.instagram.com/sabyasachi_panda_/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 hover:text-red-400 text-2xl'><FaInstagram /></div></a> 
+                                            <a href="https://www.instagram.com/roxian_0x?igsh=dHN4bDAyczZvMnJt"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 hover:text-red-400 text-2xl'><FaInstagram /></div></a> 
                                             <a href="https://x.com/Roshan_panda007"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-gray-400'><FaXTwitter /></div></a> 
-                                            <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFbHmGcXcjXTmtMfzDBjrjpDcvzDQGdfxTxHLlsKNLbxgWNJtMtgQMFDLSlBCWGmhL"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
+                                            <a href="mailto:sabyasachipanda410@gmail.com"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
 
                                         </div>
                                         <div className='justify-center items-center flex gap-2'>
@@ -199,9 +199,9 @@ const Home = () => {
                             <div className='flex gap-3 text-[0.7rem] mt-2 text-gray-900 relative'>
                                         <a href="https://github.com/roshanpanda666"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-white'><FaGithub /></div></a>
                                        <a href="https://www.linkedin.com/in/sabyasachi-panda-351870256/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-blue-500'><FaLinkedin /></div></a>
-                                       <a href="https://www.instagram.com/sabyasachi_panda_/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 hover:text-red-400 text-2xl'><FaInstagram /></div></a> 
+                                       <a href="https://www.instagram.com/0xsabyasachi/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 hover:text-red-400 text-2xl'><FaInstagram /></div></a> 
                                        <a href="https://x.com/Roshan_panda007"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-gray-400'><FaXTwitter /></div></a> 
-                                       <a href="https://mail.google.com/mail/u/0/#inbox?compose=jrjtXDzFbHmGcXcjXTmtMfzDBjrjpDcvzDQGdfxTxHLlsKNLbxgWNJtMtgQMFDLSlBCWGmhL"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
+                                       <a href="mailto:sabyasachipanda410@gmail.com"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-500'><SiGmail /></div></a>
                                        <a href="https://medium.com/@sabyasachipanda410"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-white'><FaMedium /></div></a> 
                                        <a href="https://in.pinterest.com/sabyasachipanda410/"><div className=' h-[30px] w-[30px] text-center flex justify-center items-center cursor-pointer mt-2 text-2xl hover:text-red-600'><FaPinterest /></div></a> 
 
