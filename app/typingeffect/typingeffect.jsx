@@ -6,7 +6,7 @@ const Typingeffect = () => {
     
     <div>
       <Typewriter
-            words={['CODER', 'TECH ENTHUSIAST', 'DESIGNER', 'LEARNER','THINKER']}
+            words={['CODER', 'Ai ENTHUSIAST', 'DESIGNER', 'LEARNER','THINKER']}
             loop={5}
             cursor
             cursorStyle='_'
